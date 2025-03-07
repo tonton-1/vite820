@@ -4,6 +4,7 @@ import {
   faMedium,
   faYoutube,
 } from "@fortawesome/free-brands-svg-icons";
+import picExp from "../../assets/picExp1.png";
 const Experience = () => {
   return (
     <div className="space-y-4">
@@ -11,7 +12,9 @@ const Experience = () => {
       <div className="grid grid-cols-[30%_70%]">
         <div>
           <div>2024-2025</div>
-          <div>Image</div>
+          <div>
+            <img src={picExp} className="w-5/6 rounded-md" />
+          </div>
         </div>
 
         <div className="flex flex-col gap-y-4">
@@ -32,12 +35,12 @@ const Experience = () => {
             veritatis. Omnis quidem ut quis vel veritatis, esse dolor,
             laboriosam amet quisquam at adipisci quae.
           </div>
-          <div className="text-left">Skill</div>
+          <div className="text-left font-medium">Skill</div>
           <div className="text-left flex gap-4 ">
-            <div className="bg-primarySubcontent px-2 py-1 rounded-lg ">
+            <div className="bg-primarySubcontent px-2 py-1 rounded-lg hover:text-primaryBg ">
               React
             </div>
-            <div className="bg-primarySubcontent px-2 py-1 rounded-lg">
+            <div className="bg-primarySubcontent px-2 py-1 rounded-lg hover:text-primaryBg">
               Tailwind
             </div>
           </div>
