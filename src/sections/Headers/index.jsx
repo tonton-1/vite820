@@ -1,6 +1,10 @@
 import fileResume from "../../assets/resume.pdf";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faArrowDown, faDownload } from "@fortawesome/free-solid-svg-icons";
+import {
+  faArrowDown,
+  faDownload,
+  faEye,
+} from "@fortawesome/free-solid-svg-icons";
 import { data } from "../../contents/header";
 
 const Header = () => {
@@ -15,7 +19,7 @@ const Header = () => {
           <span className="flex items-center  ">
             {data.btnText}
             <div className="ml-2">
-              <FontAwesomeIcon icon={faDownload} className="animate-bounce" />
+              <FontAwesomeIcon icon={faEye} className="animate-bounce" />
             </div>
           </span>
         </a>
